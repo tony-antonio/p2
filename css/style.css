@@ -1,5 +1,5 @@
 body {
-  background: yellow;
+  background: #f9e933;
 }
 
 header, main, footer {
@@ -27,11 +27,10 @@ header nav {
 }
 
 main {
-  background: yellow;
-  overflow: auto;
-  border-style: solid;
-  border-color: #0000ff;
+  border-style: dotted;
   border-width: 10px;
+  background: blue;
+  overflow: auto;
 }
 
 main .left {
@@ -39,6 +38,9 @@ main .left {
   width: 570px;
 }
 
+li {color: white;
+
+}
 main .right {
   float: right;
   width: 285px;
@@ -46,10 +48,10 @@ main .right {
 
 footer .left {
   float: left;
-  width: 570px;
+  width: 285px;
 }
 
 footer .sitemap {
-  float: center;
-  width: 570px;
+  float: right;
+  width: 285px;
 }
